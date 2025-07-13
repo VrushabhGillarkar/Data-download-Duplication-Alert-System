@@ -1,46 +1,52 @@
-**📥 Data Download Duplication Alert System:**
+# Data Download Duplication Alert System (DDAS) 
+# Author: IPsqSoftTech
+# Date: On Going
+# Version: 1.0
+# Description: 
+This script is designed to monitor the data download process and alert the user if there is any duplication in the downloaded data.
 
-**🚀 Smart India Hackathon 2025**
+This advanced setup leverages **BERT** for similarity, **Autoencoders** for anomaly detection, and file type classification for customization. 
+## Installing Required Libraries
 
-A solution to the SIH 2025 problem statement focused on detecting and alerting unauthorized or repetitive downloads of digital content from an online platform. This system is designed to improve digital resource security and prevent data misuse.
+Install the necessary dependencies for the new ML models and Flask:
 
-**📌 Problem Statement**
+```bash
+pip install Flask flask-sqlalchemy flask-socketio scikit-learn numpy
+```
 
-Digital platforms hosting PDFs, documents, and datasets often face challenges with repeated downloads by the same user, sometimes indicating misuse or data scraping. This project aims to:
+```bash
+pip install Flask Flask-SQLAlchemy flask-socketio numpy
+```
+```bash
+pip install flask flask-sqlalchemy flask-cors hashlib
+```
 
-1) Track and analyze download behavior
-2) Detect duplication or suspicious patterns
-3) Alert administrators in real-time
-4) Maintain logs for auditing and policy enforcement
+```bash
+pip install eventlet
+```
 
-**🔍 Key Features**
-
-✅ Duplicate Download Detection
-
-Track repeated downloads of the same file by the same user or IP address.
-
-📊 Real-time Monitoring Dashboard
-
-Admin dashboard to view live stats, graphs, and user activity.
-
-✉️ Instant Alerts
-
-Trigger email/notification alerts to the admin on rule violation.
-
-🔐 Secure Logging & Audit Trail
-
-Maintain records of download activity for transparency and review.
-
-**🛠️ Tech Stack**
-
-**Frontend**	React.js / HTML / CSS / JavaScript
-
-**Backend**	Python (Flask / Django) or Node.js
-
-**Database**	MongoDB / MySQL
+# uploads/ (Uploaded files directory)
 
 
-**📷 Screenshots**
+```bash
+mkdir uploads
+```
 
-(Add screenshots here showing dashboard, alerts, or logs)
+### You can set the permissions using the following command:
+```bash
+chmod 755 uploads/
+```
 
+# 5. Additional Suggestions:
+
+- **Model Retraining:** Implement a way to periodically retrain your anomaly detection model and similarity model to improve their performance as new data is collected.
+- **Improved Logging:** Enhance error handling and logging for better traceability, using tools like **Sentry** or **Loggly**.
+- **Model Deployment:** If the models grow large or require significant resources, consider deploying them using a model server (e.g., **TensorFlow Serving, TorchServe**).
+
+![alt text](pic2.png)
+
+![alt text](pic1.png)
+
+![alt text](pic3.png)
+
+![alt text](pic4.png)
