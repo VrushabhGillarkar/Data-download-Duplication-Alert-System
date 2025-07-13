@@ -37,7 +37,7 @@ mkdir uploads
 chmod 755 uploads/
 ```
 
-# 5. Additional Suggestions:
+# Additional Suggestions:
 
 - **Model Retraining:** Implement a way to periodically retrain your anomaly detection model and similarity model to improve their performance as new data is collected.
 - **Improved Logging:** Enhance error handling and logging for better traceability, using tools like **Sentry** or **Loggly**.
@@ -50,3 +50,6 @@ chmod 755 uploads/
 ![alt text](pic3.png)
 
 ![alt text](pic4.png)
+
+## 📸 Video LINK
+🔗 [Access Resources on Google Drive](https://drive.google.com/file/d/1Ohl2yqDYo2cJ9nKmmSpmZhAOXdOgDYPn/view?usp=drive_link)
