@@ -52,4 +52,4 @@ chmod 755 uploads/
 ![alt text](pic4.png)
 
 ## 📸 Video LINK
-🔗 [Access Resources on Google Drive](https://drive.google.com/file/d/1Ohl2yqDYo2cJ9nKmmSpmZhAOXdOgDYPn/view?usp=drive_link)
+🔗 [Access Resources on Google Drive]([https://drive.google.com/file/d/1Ohl2yqDYo2cJ9nKmmSpmZhAOXdOgDYPn/view?usp=drive_link])
